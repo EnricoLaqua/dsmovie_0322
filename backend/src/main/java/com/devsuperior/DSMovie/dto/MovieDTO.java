@@ -1,4 +1,4 @@
-package com.devsuperior.DSMovie.config;
+package com.devsuperior.DSMovie.dto;
 
 import com.devsuperior.DSMovie.entities.Movie;
 
