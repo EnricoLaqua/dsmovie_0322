@@ -55,6 +55,6 @@ function FormCard( { movieId } : Props) {
 
 export default FormCard;
 
-function then(arg0: (response: any) => void) {
+    function then(arg0: (response: any) => void) {
     throw new Error('Function not implemented.');
 }

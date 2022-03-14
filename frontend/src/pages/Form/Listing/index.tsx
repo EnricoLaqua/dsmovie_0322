@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import axios from "axios";
 import MovieCard from "components/MovieCard";
 import Pagination from "components/Pagination";
@@ -7,7 +8,7 @@ import { BASE_URL } from "utils/requests";
 
 function Listing() {
 
-    const [pageNumber, setPagenumber] =useState(0);
+    const [pageNumber, setPageNumber] =useState(0);
     
     const [page, setPage] =useState<MoviePage>({
         content: [],
